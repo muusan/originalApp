@@ -10,6 +10,7 @@
         android:layout_margin="5dp"
         android:background="@drawable/shibu"
         android:onClick="onShibu" />
+    
 
     <android.support.v7.widget.GridLayout
         xmlns:app="http://schemas.android.com/apk/res/com.example.summaercamp2014"

@@ -224,10 +224,11 @@ containing a value of this type.
         public static final int default_gap=0x7f050000;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int line=0x7f020001;
-        public static final int shibu=0x7f020002;
-        public static final int syosetsu=0x7f020003;
+        public static final int hatibu=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
+        public static final int line=0x7f020002;
+        public static final int shibu=0x7f020003;
+        public static final int syosetsu=0x7f020004;
     }
     public static final class id {
         public static final int alignBounds=0x7f040002;

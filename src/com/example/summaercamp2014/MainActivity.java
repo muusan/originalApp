@@ -23,7 +23,7 @@ public class MainActivity extends Activity {
 
 		shibu = (ImageButton) findViewById(R.id.imageButton1);
 		syosetsu = (GridLayout) findViewById(R.id.gridLayout1);
-		syosetsu.setColumnCount(6);
+		syosetsu.setColumnCount(3);
 		// gakuhu = (GridLayout) findViewById(R.id.gridLayout1);
 
 	}
@@ -41,20 +41,21 @@ public class MainActivity extends Activity {
 	public void onShibu(View v) {
 		// gridlayoutのパラメータを作成
 		GridLayout.LayoutParams params1 = new GridLayout.LayoutParams();
-		params1.width = syosetsu.getWidth() / 8; // syosetsuの横幅 / 4
-		params1.height = syosetsu.getHeight();
+		params1.width = syosetsu.getWidth() / 4; // syosetsuの横幅 / 4
+		params1.height = syosetsu.getHeight() / 2;
 		params1.columnSpec = GridLayout.spec(i);
 		params1.rowSpec = GridLayout.spec(0);
 
 		// imageViewを作成
 		imageView = new ImageView(this);
 		imageView.setLayoutParams(params1);
-		imageView.setImageResource(R.drawable.line);
+		imageView.setImageResource(R.drawable.shibu);
 
 		// syosetsuに追加
 		syosetsu.addView(imageView);
 
-		System.out.println("やったよ！: width: " + params1.width);
+		// System.out.println("やったよ！: width: " + params1.width);
+
 		// 次の区切りに進む
 		i++;
 	}

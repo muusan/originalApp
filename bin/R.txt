@@ -13,10 +13,11 @@ int attr useDefaultMargins 0x7f010003
 int dimen activity_horizontal_margin 0x7f050001
 int dimen activity_vertical_margin 0x7f050002
 int dimen default_gap 0x7f050000
-int drawable ic_launcher 0x7f020000
-int drawable line 0x7f020001
-int drawable shibu 0x7f020002
-int drawable syosetsu 0x7f020003
+int drawable hatibu 0x7f020000
+int drawable ic_launcher 0x7f020001
+int drawable line 0x7f020002
+int drawable shibu 0x7f020003
+int drawable syosetsu 0x7f020004
 int id alignBounds 0x7f040002
 int id alignMargins 0x7f040003
 int id bottom 0x7f040005
